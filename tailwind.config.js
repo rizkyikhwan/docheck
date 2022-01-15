@@ -1,6 +1,7 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js}"],
   mode: 'jit',
+  darkMode: 'class',
   theme: {
     container: {
       center: true,

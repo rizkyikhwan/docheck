@@ -7,10 +7,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/vue-fontawesome": "^3.0.0-5",
-    "vue": "^3.2.25"
+    "feather-icons": "^4.28.0",
+    "vue": "^3.2.25",
+    "vue-feather": "^2.0.0-rc.1",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
