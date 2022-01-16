@@ -16,10 +16,10 @@ export default {
 </script>
 
 <template>
-  <div class="container">
+  <main class="container h-[70vh]">
     <div class="w-full lg:w-3/4 mx-auto">
       <div class="p-4 bg-emerald-400/90 rounded-2xl shadow-lg shadow-emerald-400/50 dark:bg-gray-800 dark:shadow-gray-700/30">
-        <h2 class="mb-3 text-slate-700 dark:text-slate-200">Search Domain</h2>
+        <h2 class="mb-3 text-slate-800 dark:text-emerald-500">Search Domain</h2>
         <form class="relative leading-3">
           <input v-model.enter="enterDomain" type="text" placeholder="example.com" class="input">
           <button @click.prevent="searchDomain" :disabled="enterDomain == ''" class="btn">Check</button>
@@ -55,5 +55,5 @@ export default {
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>

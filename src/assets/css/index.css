@@ -39,7 +39,7 @@
   }
 
   .btn {
-    @apply font-Saira absolute right-2 top-[3px] border-0 p-2 bg-teal-400 rounded-lg text-white uppercase font-bold tracking-wider shadow-sm shadow-teal-400/50 cursor-pointer focus:bg-teal-600 disabled:cursor-default disabled:opacity-50
-      dark:bg-emerald-600 dark:shadow-emerald-500/40 dark:shadow-md;
+    @apply font-Saira absolute right-1 top-[3px] border-0 p-2 bg-teal-400 rounded-lg text-white uppercase font-bold tracking-wider cursor-pointer focus:bg-teal-600 disabled:cursor-default disabled:opacity-50
+      dark:bg-emerald-600;
   }
 }

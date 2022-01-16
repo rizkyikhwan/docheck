@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+<h1 align="center">DoCheck (Domain Check)</h1>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![banner](https://user-images.githubusercontent.com/79355239/149663170-199c2724-2417-4698-b90d-f80893bf8bd8.jpg)
 
-## Recommended IDE Setup
+## Tech & Depedencies
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- [Vite](https://vitejs.dev/)
+- [Vue 3](https://v3.vuejs.org/)
+- [Vuex](https://next.vuex.vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Feather Icons](https://feathericons.com/)

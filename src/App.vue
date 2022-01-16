@@ -3,12 +3,14 @@ import { onBeforeMount } from "vue";
 import { useStore, mapGetters } from "vuex"
 import Navbar from "./components/navbar.vue"
 import Main from "./components/main.vue"
+import Footer from "./components/footer.vue"
 
 export default {
   components: {
     Navbar,
-    Main
-  },
+    Main,
+    Footer
+},
   setup() {
     const store = useStore()
     
@@ -33,4 +35,5 @@ export default {
 <template>
   <Navbar />
   <Main />
+  <Footer />
 </template>
